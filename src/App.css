@@ -4,7 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-darkblue: #131921;
+  --color-darkgrey: #3b4149;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
 }
+
+/* Header Part */
+
+.header-top-strip {
+  border-bottom: 1px solid var(--color-darkgrey);
+  background-color: var(--color-darkblue);
+}
+
+/*Header Part End Here */
