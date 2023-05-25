@@ -45,6 +45,12 @@ const ProductCard = (props) => {
                             edit={false}
                             activeColor="#ffd700"
                         />
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Proin sed vehicula dui. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos
+                        </p>
                         <p className="price">$100.00</p>
                     </div>
 
@@ -104,6 +110,12 @@ const ProductCard = (props) => {
                             edit={false}
                             activeColor="#ffd700"
                         />
+                        <p className="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Proin sed vehicula dui. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos
+                        </p>
                         <p className="price">$100.00</p>
                     </div>
 
