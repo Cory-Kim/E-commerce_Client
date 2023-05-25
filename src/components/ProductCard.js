@@ -45,7 +45,11 @@ const ProductCard = (props) => {
                             edit={false}
                             activeColor="#ffd700"
                         />
-                        <p className="description">
+                        <p
+                            className={`description ${
+                                grid === 12 ? "d-block" : "d-none"
+                            }`}
+                        >
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Proin sed vehicula dui. Class aptent taciti
                             sociosqu ad litora torquent per conubia nostra, per
@@ -110,7 +114,11 @@ const ProductCard = (props) => {
                             edit={false}
                             activeColor="#ffd700"
                         />
-                        <p className="description">
+                        <p
+                            className={`description ${
+                                grid === 12 ? "d-block" : "d-none"
+                            }`}
+                        >
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Proin sed vehicula dui. Class aptent taciti
                             sociosqu ad litora torquent per conubia nostra, per

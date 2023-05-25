@@ -171,7 +171,10 @@ const Header = () => {
                                             Our Store
                                         </NavLink>
 
-                                        <NavLink className="text-white" to="/">
+                                        <NavLink
+                                            className="text-white"
+                                            to="/blogs"
+                                        >
                                             Blogs
                                         </NavLink>
 
