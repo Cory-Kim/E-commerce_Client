@@ -14,6 +14,10 @@ import Forgotpassword from "./pages/Forgotpassword";
 import Signup from "./pages/Signup";
 import Resetpassword from "./pages/Resetpassword";
 import SingleBlog from "./pages/SingleBlog";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPloicy from "./pages/RefundPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import TermAndContions from "./pages/TermAndConditions";
 
 function App() {
     return (
@@ -42,6 +46,22 @@ function App() {
                         <Route path="wishlist" element={<Wishlist />} />
                         <Route path="contact" element={<Contact />} />
                         <Route path="store" element={<OurStore />} />
+                        <Route
+                            path="privacy-policy"
+                            element={<PrivacyPolicy />}
+                        />
+                        <Route
+                            path="refund-policy"
+                            element={<RefundPloicy />}
+                        />
+                        <Route
+                            path="shipping-policy"
+                            element={<ShippingPolicy />}
+                        />
+                        <Route
+                            path="term-conditions"
+                            element={<TermAndContions />}
+                        />
                     </Route>
                 </Routes>
             </BrowserRouter>
