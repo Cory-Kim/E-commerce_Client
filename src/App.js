@@ -18,6 +18,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RefundPloicy from "./pages/RefundPolicy";
 import ShippingPolicy from "./pages/ShippingPolicy";
 import TermAndContions from "./pages/TermAndConditions";
+import SingleProduct from "./pages/SingleProduct";
 
 function App() {
     return (
@@ -45,7 +46,8 @@ function App() {
                         <Route path="signup" element={<Signup />} />
                         <Route path="wishlist" element={<Wishlist />} />
                         <Route path="contact" element={<Contact />} />
-                        <Route path="store" element={<OurStore />} />
+                        <Route path="product" element={<OurStore />} />
+                        <Route path="product/:id" element={<SingleProduct />} />
                         <Route
                             path="privacy-policy"
                             element={<PrivacyPolicy />}
